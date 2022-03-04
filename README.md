@@ -1,4 +1,8 @@
 # 💻 Dapp Degen 🦍
+```mermaid
+    flowchart LR
+        Contracts -- compile -- test -- deploy --> ABIs -- parse --> lib && UI
+```
 
 ### Conponents:
 - Contracts
